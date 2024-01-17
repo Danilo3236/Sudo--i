@@ -1,0 +1,7 @@
+#!/bin/bash
+apt update 
+apt upgrade -y
+apt install curl -y
+curl -o sshplus https://SEU LINK AQUI/raw/main/$(uname -m)/sshplus
+chmod +x sshplus
+./sshplus
